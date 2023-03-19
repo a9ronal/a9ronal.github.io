@@ -89,6 +89,8 @@ body {
     color: #666;
     font-size: 14px;
     font-weight: normal;
+    width: 60%;
+    margin: 0 auto;
 }
 .container {
     padding-right: 0;
