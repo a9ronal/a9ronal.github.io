@@ -65,26 +65,34 @@
     <div class="filter dark-wrapper container">
       <ul>
         <li><a class="active" href="#" data-filter=".all">All</a></li>
-        <li><a href="#" id = "architechtureButton" data-filter=".architechture">Architecture</a></li>
+        <li><a href="#" id = "landscapeButton" data-filter=".architechture">Architecture</a></li>
         <li><a href="#" data-filter=".black-white">Black & White</a></li>
-        <li><a href="#" data-filter=".landscape">Landscape</a></li>
+        <li><a href="#" id = "architechtureButton" data-filter=".landscape">Landscape</a></li>
         <li><a href="#" data-filter=".streetphotography">Street Photography</a></li>
       </ul>
     </div>
     
     <div class="filter black-wrapper container" id="architechtureMenu" style="display: none;">
       <ul class="items">
-        <li class="item architechture singleshot artisthouse placeintime largeformat"><a href="#" style="color: lightgray" data-filter=".architechture">All</a></li>
-        <li class="item architechture singleshot artisthouse placeintime largeformat"><a href="#" style="color: lightgray" data-filter=".placeintime">A Place in Time</a></li>
-        <li class="item architechture singleshot artisthouse placeintime largeformat"><a href="#" style="color: lightgray" data-filter=".artisthouse">Artist House</a></li>
-        <li class="item architechture singleshot artisthouse placeintime largeformat"><a href="#" style="color: lightgray" data-filter=".largeformat">Large Fromat Camera</a></li>
-        <li class="item architechture singleshot artisthouse placeintime largeformat"><a href="#" style="color: lightgray" data-filter=".singleshot">Single Shots</a></li>
+        <li class="item architechture archsingleshot artisthouse placeintime largeformat"><a href="#" style="color: lightgray" data-filter=".architechture">All</a></li>
+        <li class="item architechture archsingleshot artisthouse placeintime largeformat"><a href="#" style="color: lightgray" data-filter=".placeintime">A Place in Time</a></li>
+        <li class="item architechture archsingleshot artisthouse placeintime largeformat"><a href="#" style="color: lightgray" data-filter=".artisthouse">Artist House</a></li>
+        <li class="item architechture archsingleshot artisthouse placeintime largeformat"><a href="#" style="color: lightgray" data-filter=".largeformat">Large Fromat Camera</a></li>
+        <li class="item architechture archsingleshot artisthouse placeintime largeformat"><a href="#" style="color: lightgray" data-filter=".archsingleshot">Single Shots</a></li>
+      </ul>
+    </div>
+
+    <div class="filter black-wrapper container" id="landScapeMenu" style="display: none;">
+      <ul class="items">
+        <li class="item landscape landsingleshot wildfire"><a href="#" style="color: lightgray" data-filter=".landscape">All</a></li>
+        <li class="item landscape landsingleshot wildfire"><a href="#" style="color: lightgray" data-filter=".wildfire">Post Wildfire Lands</a></li>
+        <li class="item landscape landsingleshot wildfire"><a href="#" style="color: lightgray" data-filter=".landsingleshot">Single Shots</a></li>
       </ul>
     </div>
     <!-- /filter -->
     <div class="container inner">      
       <ul class="items">
-        <li class="item thumb all architechture singleshot">
+        <li class="item thumb all architechture archsingleshot">
           <figure><a href="style/images/Architechture/DSC08356 copy.jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-01">
             <div class="text-overlay">
               <div class="info"></div>
@@ -592,7 +600,7 @@
           <!-- /.info .hidden --> 
         </li>
 
-        <li class="item thumb all landscape">
+        <li class="item thumb all landscape landsingleshot">
           <figure><a href="style/images/landscape/DSC04001 copy.jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
             <div class="text-overlay">
               <div class="info"></div>
@@ -605,7 +613,7 @@
         -->
           <!-- /.info .hidden --> 
         </li>
-        <li class="item thumb all landscape">
+        <li class="item thumb all landscape landsingleshot">
           <figure><a href="style/images/landscape/DSC07883 copy.jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
             <div class="text-overlay">
               <div class="info"></div>
@@ -619,7 +627,7 @@
           <!-- /.info .hidden --> 
         </li>
 
-        <li class="item thumb all landscape">
+        <li class="item thumb all landscape landsingleshot">
           <figure><a href="style/images/landscape/DSC09787-2 copy.jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
             <div class="text-overlay">
               <div class="info"></div>
@@ -632,7 +640,7 @@
         -->
           <!-- /.info .hidden --> 
         </li>
-        <li class="item thumb all landscape">
+        <li class="item thumb all landscape landsingleshot">
           <figure><a href="style/images/landscape/Vedauwoo.jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
             <div class="text-overlay">
               <div class="info"></div>
@@ -645,6 +653,138 @@
         -->
           <!-- /.info .hidden --> 
         </li>
+        <li class="item thumb all landscape wildfire">
+          <figure><a href="style/images/PostWildfireLands/Post Wildfire Land (1).jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
+            <div class="text-overlay">
+              <div class="info"></div>
+            </div>
+            <img src="style/images/PostWildfireLands/Post Wildfire Land (1).jpg" alt="" /> </a></figure>
+          <!--<div id="title-02" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+        -->
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb all landscape wildfire">
+          <figure><a href="style/images/PostWildfireLands/Post Wildfire Land (2).jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
+            <div class="text-overlay">
+              <div class="info"></div>
+            </div>
+            <img src="style/images/PostWildfireLands/Post Wildfire Land (2).jpg" alt="" /> </a></figure>
+          <!--<div id="title-02" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+        -->
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb all landscape wildfire">
+          <figure><a href="style/images/PostWildfireLands/Post Wildfire Land (3).jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
+            <div class="text-overlay">
+              <div class="info"></div>
+            </div>
+            <img src="style/images/PostWildfireLands/Post Wildfire Land (3).jpg" alt="" /> </a></figure>
+          <!--<div id="title-02" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+        -->
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb all landscape wildfire">
+          <figure><a href="style/images/PostWildfireLands/Post Wildfire Land (4).jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
+            <div class="text-overlay">
+              <div class="info"></div>
+            </div>
+            <img src="style/images/PostWildfireLands/Post Wildfire Land (4).jpg" alt="" /> </a></figure>
+          <!--<div id="title-02" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+        -->
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb all landscape wildfire">
+          <figure><a href="style/images/PostWildfireLands/Post Wildfire Land (5).jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
+            <div class="text-overlay">
+              <div class="info"></div>
+            </div>
+            <img src="style/images/PostWildfireLands/Post Wildfire Land (5).jpg" alt="" /> </a></figure>
+          <!--<div id="title-02" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+        -->
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb all landscape wildfire">
+          <figure><a href="style/images/PostWildfireLands/Post Wildfire Land (6).jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
+            <div class="text-overlay">
+              <div class="info"></div>
+            </div>
+            <img src="style/images/PostWildfireLands/Post Wildfire Land (6).jpg" alt="" /> </a></figure>
+          <!--<div id="title-02" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+        -->
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb all landscape wildfire">
+          <figure><a href="style/images/PostWildfireLands/Post Wildfire Land (7).jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
+            <div class="text-overlay">
+              <div class="info"></div>
+            </div>
+            <img src="style/images/PostWildfireLands/Post Wildfire Land (7).jpg" alt="" /> </a></figure>
+          <!--<div id="title-02" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+        -->
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb all landscape wildfire">
+          <figure><a href="style/images/PostWildfireLands/Post Wildfire Land (8).jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
+            <div class="text-overlay">
+              <div class="info"></div>
+            </div>
+            <img src="style/images/PostWildfireLands/Post Wildfire Land (8).jpg" alt="" /> </a></figure>
+          <!--<div id="title-02" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+        -->
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb all landscape wildfire">
+          <figure><a href="style/images/PostWildfireLands/Post Wildfire Land (9).jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
+            <div class="text-overlay">
+              <div class="info"></div>
+            </div>
+            <img src="style/images/PostWildfireLands/Post Wildfire Land (9).jpg" alt="" /> </a></figure>
+          <!--<div id="title-02" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+        -->
+          <!-- /.info .hidden --> 
+        </li>
+        <li class="item thumb all landscape wildfire">
+          <figure><a href="style/images/PostWildfireLands/Post Wildfire Land (10).jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
+            <div class="text-overlay">
+              <div class="info"></div>
+            </div>
+            <img src="style/images/PostWildfireLands/Post Wildfire Land (10).jpg" alt="" /> </a></figure>
+          <!--<div id="title-02" class="info hidden">
+            <h2>Vulputate Cursus Mollis</h2>
+            <div class="fancybody">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus commodo.</div>
+          </div>
+        -->
+          <!-- /.info .hidden --> 
+        </li>
+
+
         <li class="item thumb all streetphotography">
           <figure><a href="style/images/Street photography/DSC02284 copy.jpg" class="fancybox-media" data-rel="portfolio" data-title-id="title-02">
             <div class="text-overlay">
@@ -845,11 +985,18 @@
 <script src="style/js/classie.js"></script> 
 <script src="style/js/scripts.js"></script>
 <script>
-  const myDiv = document.getElementById('architechtureMenu');
-  const myButton = document.getElementById('architechtureButton');
+  const archDiv = document.getElementById('architechtureMenu');
+  const archButton = document.getElementById('architechtureButton');
 
-  myButton.addEventListener('click', function() {
-    myDiv.style.display = 'block';
+  archButton.addEventListener('click', function() {
+    archDiv.style.display = 'block';
+  });
+
+  const landDiv = document.getElementById('landScapeMenu');
+  const landButton = document.getElementById('landscapeButton');
+
+  landButton.addEventListener('click', function() {
+    landDiv.style.display = 'block';
   });
 </script>
 </body>
